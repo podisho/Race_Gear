@@ -1,0 +1,653 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: #2c021c;
+    padding: 0px;  
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo{
+    height: 58px;
+    float: left;
+}
+
+.logo img{
+    width: 80%;
+}
+
+nav ul{
+    float: right;
+    
+}
+
+ul li{ 
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 16px;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #14000c;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .active {
+    background-color: #dcbebe;
+    color: #9f1a6c;
+    font-weight: bold;
+  }
+
+.pageHeading{
+    background-image: url("../images/f1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+.transparentBackgrround{
+    background: rgba(63, 50, 64, 0.6);
+    height: 250px;
+    overflow: hidden;
+}
+
+.heading{
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading h1{
+    font-size: 2.5em;
+    margin-top: 105px;
+}
+
+.mainSection{
+    padding: 30px;
+}
+
+/* Footer styling */
+
+.footer{
+    background-color: #f1e9f1;
+    
+    padding: 20px 10px 5px 10px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footerSection {
+    flex: 1;
+    padding: 0 20px;
+    max-width: 300px;
+}
+
+
+.footerSection h4 {
+    margin: 0;
+    color: #c467a0;
+}
+
+.footerSection p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #010101;
+}
+
+.footerSection a{
+    text-decoration: none;
+    color: #000;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 1px;
+    color: #010101;
+}
+
+.newsletter input{
+    padding: 5px;
+    border: 1px solid #2C021C;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.newsletter .button{
+    background-color: #c467a0;
+    border: none;
+}
+
+
+/* Footer styling ends here */
+
+/* Contact us page style starts here */
+
+.contactContainer{
+    display: flex;
+    width: 100%;
+}
+
+.contact{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.titleText{
+    font-weight: bold;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact p {
+    color: #010101;
+}
+
+.contactTable{
+    width: 100%;
+}
+
+.contactTable tr td{
+    display: flex;
+    width: 80%;
+    overflow: hidden;
+}
+
+.contactTable input, textarea, button{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #2C021C;
+    margin: 8px 0px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contactTable button{
+    background-color: #2C021C;
+    color: #fff;
+    font-size: 1.0em;
+}
+
+.maps{
+    outline: 5px solid #2C021C;
+    border-radius: 2px;
+}
+
+/* Contact us page style ends here */
+
+
+
+
+
+/* Events Page styles starts here*/
+
+.eventsContainer{
+    display: flex;
+    width: 100%;
+}
+
+.eventsContainer p {
+    color: black;
+}
+
+.event {
+    width: 50%;
+    background:transparent;
+    background-color: #efccf0;
+    border-radius: 8px;
+    margin: 20px;
+  }
+
+  .eventHeading{
+    background-color: #2C021C;
+    height: 40px;
+    color: #fff;
+    padding: 10px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .eventContent{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .eventImage{
+    width: 50%;
+    
+  }
+
+  .eventImage img{
+    width: 100%;
+    border-radius: 3px;
+    height: 100%;
+  }
+
+  .eventDetails{
+    width: 40%;
+    padding: 15px;
+  }
+
+  .discount{
+    color: #9f1a6c;
+    font-size: 1.1em;
+    font-family: cursive;
+  }
+
+
+  .button {
+    position: relative;
+    background-color: #9f1a6c;
+    border: none;
+    width: 40%;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .titleText {
+    color: black;
+  }
+
+
+
+/*Events Page styles ends here*/
+
+
+
+/*Gallery Page styles starts here*/
+
+.collargeContainer{
+    width: 100%;
+    overflow: hidden; 
+    
+}
+
+.galleryHeader{
+    text-align: center;
+}
+
+.galleryHeader h4{
+    color: #9f1a6c;
+    font-size: 1.2em;
+}
+
+.galleryContainer{
+    padding: 0 6px;
+    margin-bottom: 20px;
+    float: left;
+    width: 33%;
+}
+
+.galleryRow{
+    display: flex;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/*Gallery Page styles ends here*/
+
+
+/* Home style starts here */
+
+.homeHeading{
+    background-image: url("../images/f1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0px;
+}
+.homeTransparentBackgrround{
+    background: rgba(63, 50, 64, 0.6);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sponsorsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.sponsor img{
+    width: 100%;
+}
+
+.sponsor{
+    width: 11%;
+    margin: 20px;
+}
+
+.heading h1{
+    margin-top: 250px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    background-color: #9f1a6c;
+    padding: 30px 20px;
+    border-radius: 6px;
+    margin: 0px 20px;
+}
+
+.service{
+    width: 25%;
+}
+
+.promotion{
+    text-align: center;
+    margin: 0px 250px;
+}
+
+.promotion h2{
+    color: #9f1a6c;
+}
+
+
+/* Home style ends here */
+
+
+/* About Us style starts here */
+
+.aboutContainer {
+    display: flex;
+}
+
+.aboutContent{
+    width: 50%;
+    padding: 20px;
+}
+
+.aboutContent h3{
+    color: #2C021C;
+}
+
+.aboutImage{
+    width: 50%;
+    padding: 20px;
+}
+
+.aboutImage img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.offersHeader{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.offersContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #9f1a6c;
+    margin: 0px 20px;
+    border-radius: 6px;
+}
+
+.offersCard{
+    width: 25%;
+    border-radius: 6px;
+    margin: 50px 30px;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px #860a72;
+
+}
+
+.offersCardHeading{
+    background-color: #efccf0;
+    padding: 2px 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.offersCardContent{
+    padding: 10px 20px;
+}
+
+.teamContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.teamCard{
+    width: 22%;
+    border-radius: 6px;
+    margin: 20px 30px;
+    background-color: #efccf0;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.teamCardImage {
+    width: 100%;
+    text-align: center;
+}
+
+.teamCardImage img{
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.teamCardContent{
+    text-align: center;
+}
+
+.teamCardContent a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+/* About page style ends here */
+
+
+
+/* Rsvp page styling starts here */
+
+.rsvpContainer{
+    width: 100%;
+}
+
+.tableContainer{    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tableContainer input:not(.checkbox, .gender, .rsvpButton){
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.tableContainer form{
+    width: 550px;
+    background-color: #efccf0;
+    padding: 20px;
+    border-radius: 5px;
+    outline: 5px solid #2C021C;
+}
+
+.tableContainer form input{
+    margin-bottom: 10px;
+}
+
+.checkboxContainer{
+    margin-bottom: 10px;
+}
+
+.rsvpPrice{
+    text-align: center;
+}
+
+.priceHighlight{
+    color: #9f1a6c;
+    font-size: 1.2em;
+}
+
+.rsvpButton{
+    background-color: #2C021C;
+    color: #fff;
+    font-size: 1.0em;
+    padding: 10px;
+    border-radius: 5px;
+    width: 99%;
+}
+
+
+/* Rsvp page styling ends here */
+
+
+/* terms and contions styling starts here */
+
+.conditions {
+    width: 700px;
+    height: 450px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.terms {
+    padding: 10% 25%;
+}
+
+.conditions .tab_item {
+    display: none;
+}
+
+.conditions .tabList {
+    width: 200px;
+    background: #2C021C;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.conditions .tabContent {
+    padding: 0 20px;
+    height: 100%;
+    background: #b8b3b3;
+    flex-grow: 1;
+}
+
+.conditions .tabContent .tabHead,
+.conditions .tabContent .tabFooter {
+    padding: 15px;
+    height: 60px;
+}
+
+.conditions .tabContent .tabHead {
+    text-align: center;
+}
+
+.conditions .tabContent .tabBody {
+    overflow: auto;
+    height: calc(100% - 180px);
+}
+
+.conditions .tabList ul {
+    padding: 70px 20px;
+    text-align: right;
+    color: white;
+}
+
+.conditions .tabList ul li {
+    cursor: pointer;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.conditions .tabList ul li.active2 {
+    color: palevioletred;
+}
+
+.tabFooter {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.conditions .tabContent .tabFooter button {
+    width: 120px;
+    height: 40px;
+}
+
+.tabFooter .accept {
+    background-color: #2C021C;
+    color: white
+}
+
+.tabFooter .accept:hover {
+    background-color: #c467a0;
+}
+
+.tabFooter .decline {
+    background-color: #ccc;
+    color: #000;
+    margin-right: 15px;
+}
+
+.tabFooter .decline:hover {
+    background-color: #bebbbb;
+}
+
+.tabFooter button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+}
+
+/* terms and contions styling ends here */
